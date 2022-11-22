@@ -1,5 +1,7 @@
 provider "aws"{
 region = "us-east-1"
+access_key = "AKIAWLJR2CMHQE42BJ6F"
+secret_key = "v4DHSUM9tQasxqmker5ywUYFaKugSoj59HHeahhX"
 }
 resource "aws_instance" "example"{
 for_each = {
